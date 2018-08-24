@@ -1,6 +1,7 @@
 name: Jekyll Themes
-url: http://matt.harzewski.com
+url: http://Babel.github.io
 description: Insert tagline here
+remote_theme : williamcanin/typing-jekyll-template
 
 permalink: /themes/:title/
 
