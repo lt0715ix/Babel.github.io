@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll! ... and Typing!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -177,3 +178,22 @@ exclude:
   - Rakefile
   - deploy.conf
 ### END - [IRRELEVANT PROPERTIES] - These properties have no need to change unless you know what you are doing. WATCH OUT!
+=======
+name: Jekyll Themes
+url: http://Babel.github.io
+description: Insert tagline here
+remote_theme : williamcanin/typing-jekyll-template
+
+permalink: /themes/:title/
+
+gems: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+>>>>>>> origin/master
